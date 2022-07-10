@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+/*
+Responsividade feita pelo plugin window resizer 
+*/
+
+@media only screen and (min-width: 320px) and (max-width: 749px) {
+    .imagem-menu>img {
+        width: 80%;
+    }
+    .cont-direito {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cont-esquerdo {
+        display: none;
+    }
+    .cont-membros {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cont-esquerdo-membros {
+        width: 100%;
+    }
+    .bloco-cont-carrossel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin: auto 0;
+    }
+    .cont-direito-membros {
+        display: none;
+    }
+    .cont-loja {
+        width: 100%;
+        background-color: yellowgreen;
+    }
+    .cara {
+        display: none;
+    }
+    .cont-esquerdo-loja {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .bloco-cont-carrossel {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .img-carrossel-mobile {
+        width: 100%;
+    }
+    .img-carrossel-mobile>img {
+        width: 70%;
+    }
+    .imagem-topo-carrossel {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .topo-carrossel-mobile {
+        width: 60%;
+    }
+    .cont-direito-loja>p {
+        display: none;
+    }
+    .carrossel {
+        display: flex;
+        justify-content: center;
+    }
+    .topo-carrossel-pc {
+        display: none;
+    }
+    .cont-direito-loja>h2 {
+        font-size: 1.7em;
+    }
+    .maps {
+        display: none;
+    }
+    .rodape,
+    .cont-contato {
+        width: 100%;
+    }
+    #modal {
+        width: 90%;
+    }
+    #id {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .imagem-topo-carrossel {
+        display: none;
+    }
+}

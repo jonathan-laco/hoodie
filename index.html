@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/fav.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/styleGlobal.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Hoodie</title>
+</head>
+
+<body>
+
+    <header>
+        <!--nav-->
+        <section class="cont-menu-mobile">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <section class="imagem-menu">
+                    <img src="https://i.imgur.com/HnXHSo0.png">
+                </section>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse float-right" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#sobrenos">Sobre nós <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#loja">Loja</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <!--Pag Inicial-->
+        <section class="cont-inicial">
+            <!--MODAL POR ENQUANTO AQUI-->
+            <div id="modal">
+                <h3>Loja abrirá em</h3>
+                <p id="timer"></p>
+                <input onclick="fecharModal()" class="botoes" type="button" value="Fechar">
+            </div>
+            <!--FINAL DO MODAL-->
+            <article class="cont-esquerdo">
+                <img src="https://i.imgur.com/OJI1VRo.png">
+            </article>
+            <article class="cont-direito">
+                <img src="https://i.imgur.com/HnXHSo0.png">
+                <p>Empresa Hoodie, desde 1919 no mercado, trazendo diversas inovações no mundo do whisky.<br> Sua peculiaridade é trazer as sensações da guerra e as emoções que diversos soldados vivenciaram enquanto lutavam bravamente por sua honra e pelo
+                    seu país
+                </p>
+                <a href="#sobrenos" class="buttom">Saiba mais</a>
+
+            </article>
+        </section>
+        <!--Sobre-->
+        <section id="sobrenos" class="cont-membros">
+            <article class="cont-esquerdo-membros">
+                <img src="https://i.imgur.com/QYPr1mw.png">
+                <p>
+                    Empresa Hoddie, fundada em 1919 por Stephen, Thomas e Ernest. Tendo conhecimento em destilaria, ambos fizeram suas próprias garrafas em suas homenagens. Pois, haviam sido convocados para Primeira Guerra Mundial. Com a insegurança de não saber se voltariam
+                    para casa, decidiram fabricar mais wihkys para que seus familiares que não estariam envolvidos na guerra, pudessem vender. Assim fazendo uma renda extra, sabendo que a guerra mexeria muito com a economia mundial. Em 1919, os três retornaram
+                    para suas casas, então decidiram investir em sua fábrica de whiskys, visando contar as histórias dos combatentes, tanto os que voltaram para seus familiares, quanto os que não tiveram a mesma chance. Em homenagem aos soldados, cada
+                    whisky é único. Um sabor, um cheiro, uma lembrança.<br> Em homenagem a Ernest, que faleceu em 1933 por complicações pulmonares, foi decidido vender a garrafa número 1 da lista de produtos especiais, produzida pelas
+                    mãos do próprio Ernest antes de ser voluntario para guerra.
+                </p>
+            </article>
+
+            <article class="cont-direito-membros">
+                <div class="membro">
+                    <img src="https://i.imgur.com/uESOsfR.jpg">
+                    <h2>Stephen McHickie</h2>
+                    <p>★1895<br>✞1933</p>
+                </div>
+                <div class="membro meio">
+                    <img src="https://i.imgur.com/cr7nGPh.jpg">
+                    <h2>Thomas <br>Gilbert</h2>
+                    <p>★1888<br>✞1955</p>
+                </div>
+                <div class="membro">
+                    <img src="https://i.imgur.com/QqascQF.jpg">
+                    <h2>Ernest <br>Bayles</h2>
+                    <p>★1897<br>✞1933</p>
+                </div>
+            </article>
+        </section>
+        <!--Loja-->
+        <section id="loja" class="cont-loja">
+            <article class="carrossel">
+                <div id="carouselExampleIndicators" class="topo carousel slide" data-ride="carousel">
+                    <section class="cara">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                    </section>
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <div class="bloco-cont-carrossel">
+                                <div class="cont-esquerdo-loja">
+
+                                    <!--Amadeirado-->
+                                    <div class="imagem-topo-carrossel">
+
+                                        <img class="topo-carrossel-mobile" src="https://i.imgur.com/2MwBDvJ.png">
+
+                                    </div>
+                                    <section class="img-carrossel-mobile">
+                                        <!--Será Mexido em Breve-->
+                                        <img class="d-block w-100" src="https://previews.dropbox.com/p/thumb/ABnnw_aVAnhrBPfEq8sttiuoORYAtKaM_0ialD7_MGNLz32Q8ULNtk_GkH49eaUt4e_cX4oNCCA_0TVCLhA4rXdYLONsA4kKpcHLghDiZBiodYg7bUNucMFPkrEVcPD0VF359aurXcu_z83Kq6_PUMms2qW2KPe4Z7M9qvn1OlS7XaeAenakWXsPdyKEe4zPZXDeGTeHyJ1lsdEyoWPwfRDyLO7d5_Mv9kR6sFSOKW_2RhdnEV24ahUNFCk1Org1V8hFwOyK1CsJXtvWZjIgkbNdgzWP2GaVwksi9THXs2zCa6veJSrZjAvOqX-6Snhb--XIsNl5QpZNHqaNLPyDiGORvm7FvMiPOWLuMCZtnwc3UDV_dNeYO_dAyF9zuEfVZdbAduZ3ZK0nb7Pv8kqFLxzR_4bzhRghgc-wGrzi8grg7Jrid89xhWiQMCyCQ-W_-QvBT-yBK8KXdvVohW3-ZfvsUjbXNReofLu_pSWF85iMU62T_ywp1EtDhRnk8Ye0XYOEMoplGRXGep0GhSIzT6aLj64enEZDjJV506Z-qgB5byH7jTBKBdNJGTAkOquk8KFQ-vZNKedBjY4DS-r7T8MT9zZ-ohunAon24ZI13ZDarZviP79-a1XXEvsjTqE-qSYS89tsMIUaKGWPoyqWgWmeQUE2o0o3DfSv7ozsWolDBKxW3Gb_4XGXsT5synXh9q9wJVhNdU6W5ZP52TrRFzIyRvrEMYq67BlM-pzMRTjq02dKZphwY5Aa3XmMmm6pCZ4PpLVlU_rlN4yZn3CZVhcnPw4T_CP8TvbSb8RMexzEDSJdOdadiZgZp5_FMfyaFg2AeX-sg6LQ0GX16ZwwS5PnBs-Uu4gZugT8pLZigKSV6CGMX0irJ28vqUaNrLl5nq9JbpQS1ITLoWw0dC4fUSH3xTVY8zDV817_KC0SfhzRv2JAM-ZetDFuo1y9n51MKVK6r3r-TZbIqzhnxoAdguRwKX94RA8MgQb8_osAYMM_f8vgZsqkHkDUg9EUT49XsnL7fos222INxpZ7LjKQEAn-Ovv49d3qXY2CMNF1Z8dzG-bPbP_TjvzGZZ7DzdRXK-0cKGZV06AMX0miD2tN75OuItZJR_zWpUA2TqOAr-TsqivHR9T8MIjfZSlIBtD2dkbdcbW0FeUTxE-TymFa8lAddwzWLDP1x7rFOR1AALA-YomMLF5QLAosY9-FVmC6T5zeElj1W7SpCq0jjP_sq-h0udfH0mAxR9UT07cTL2mnP-ypvFosnYkGfQdDUD4XNlVIzUVF-ikOB5WlNoZqxqxsLgDa_j4Mp9fGW-pOFCAc4hmXSstG2iWj55bIJHBnu2pXwfOn3WeBtIDg4qc8R4sIyUVW-0MuuWqx5F5cWH6sXr15MA0gGAVPMLMN-hdKq3mutU0oxJQHVd9f8m7AHqwoFsh3chn9iwCsOsljAGK-PHP7DFqWvaKe9-Ka92OB7rLrKqJbf0-bxUS47-NAvDPolvmxgOMX_DxqeeS780nchimk3Z5xRpF4w9xrA7TZ484/p.png" alt="Primeiro Slide ">
+                                    </section>
+                                </div>
+                                <div class="cont-direito-loja">
+                                    <img class="topo-carrossel-pc" src="https://i.imgur.com/2MwBDvJ.png">
+                                    <p>Amadeirado representa os soldados que tiveram mudanças bruscas em seus sentimentos, deixando de ser aquele homem sensível e fraco, para o homem mais bravo, encorajado e persistente. Na esperança de voltar para a casa.
+                                    </p>
+                                    <h2>USD 2.581,00</h2>
+                                    <a href="#" class="buttom-loja black" onclick="abrirModal()">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="bloco-cont-carrossel">
+                                <div class="cont-esquerdo-loja">
+                                    <div class="imagem-topo-carrossel">
+                                        <img class="topo-carrossel-mobile" src="https://i.imgur.com/2MwBDvJ.png">
+                                    </div>
+                                    <img class="d-block w-100" src="https://i.imgur.com/92mfF0f.png" alt="Segundo Slide">
+                                </div>
+                                <div class="cont-direito-loja">
+                                    <img class="topo-carrossel-pc" src="https://i.imgur.com/LMOU4SM.png" alt="">
+                                    <p>Maçã verde representa a volta para a casa, o doce sabor de voltar para quem mais amamos.
+                                    </p>
+                                    <h2 class="valor">USD 2.580,00</h2>
+                                    <a href="#" class="buttom-loja verde" onclick="abrirModal()">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="bloco-cont-carrossel">
+                                <div class="cont-esquerdo-loja">
+                                    <div class="imagem-topo-carrossel">
+                                        <img class="topo-carrossel-mobile" src="https://i.imgur.com/gSVxq2m.png">
+                                    </div>
+                                    <img class="d-block w-100" src="https://i.imgur.com/OJI1VRo.png" alt="Terceiro Slide">
+                                </div>
+                                <div class="cont-direito-loja">
+                                    <img class="topo-carrossel-pc" src="https://i.imgur.com/gSVxq2m.png" alt="">
+                                    <p>Edição especial black, representa a frieza que a guerra trouxe aos soldados. A frieza retratada em um whisky forte e seco.
+                                    </p>
+                                    <h2>USD 5.000,00</h2>
+                                    <a href="#" class="buttom-loja" onclick="abrirModal()">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
+
+
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <!--Contato-->
+        <section id="contato" class="rodape">
+            <article class="cont-contato">
+                <div class="cont-img-rodape">
+                    <img src="https://i.imgur.com/4bBMWAw.png">
+                </div>
+                <div class="container">
+                    <form action="#" class="form-contact" method="post" tabindex="1">
+                        <input type="text" class="form-contact-input" name="nome" placeholder="Nome" required />
+                        <input type="email" class="form-contact-input" name="email" placeholder="Email" required />
+                        <input type="tel" class="form-contact-input" name="tel" placeholder="Telefone" />
+                        <textarea class="form-contact-textarea" name="conteudo" placeholder="Deixe uma mensagem" required></textarea>
+                        <button type="submit" class="form-contact-button">Enviar</button>
+                    </form>
+                </div>
+            </article>
+        </section>
+        <section class="copy">
+            <p>2022 &#169; - Desenvolvido por <i>Jonathan laco</i>
+            </p>
+        </section>
+    </footer>
+    <!--Área de Scripts-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/funcoes.js"></script>
+</body>
+
+
+</html>
